@@ -34,7 +34,7 @@ Header
 
 # Define GitHub credentials
 $githubUsername = "Bongman1234" # Your Github Username
-$githubToken = "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" # Your Personal Access Token
+$githubToken = "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" # Your Personal Access Token
 
 # Define repository details
 $repoOwner = "beigeworm" # Tartget User
