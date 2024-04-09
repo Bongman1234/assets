@@ -37,8 +37,8 @@ $githubUsername = "Bongman1234" # Your Github Username
 $githubToken = irm "https://pastebin.com/raw/1PFfZSfq" # Your Personal Access Token
 
 # Define repository details
-$repoOwner = "beigeworm" # Tartget User
-$repoName = "Powershell-Tools-and-Toys" # Target Public Repository
+$repoOwner = "Bongman1234" # Tartget User
+$repoName = "tools" # Target Public Repository
 
 # Construct the GitHub API URL
 $apiUrl = "https://api.github.com/repos/$repoOwner/$repoName/contents"
